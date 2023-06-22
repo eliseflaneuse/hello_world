@@ -15,7 +15,7 @@ public class ObjectivesController {
 	 @GetMapping
 	    public String getObjectives() {
 		 
-		 	String intro = "Developer's Log, earthdate 2023.06.22.\nMeus objetivos de aprendizagem desta semana são: \n";
+		String intro = "Developer's Log, earthdate 2023.06.22.\nMeus objetivos de aprendizagem desta semana são: \n";
 		 	
 	        List<String> objectives = Arrays.asList(
 	            "Ecossistema Spring",
